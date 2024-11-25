@@ -136,7 +136,7 @@ def create_reservation():
                 reservation=reservation
             )
             db.session.add(custom_field)
-
+# db.session.
         db.session.add(reservation)
         db.session.commit()
 
